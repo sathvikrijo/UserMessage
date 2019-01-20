@@ -125,7 +125,6 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                     Toast.makeText(getApplicationContext(), "Msg can't be added, try again", Toast.LENGTH_SHORT).show();
                 }
             }
-
         });
 
     }

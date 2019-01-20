@@ -90,7 +90,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 }
 
                 else {
-                    Toast.makeText(Login.this, "USername/Password is incorrect", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Login.this, "Username/Password is incorrect", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -106,7 +106,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         if(v == txtvSignup){
             finish();
             startActivity(new Intent(this, SignUp.class));
-            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+            overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
         }
 
     }

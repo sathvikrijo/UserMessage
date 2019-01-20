@@ -114,7 +114,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
         if(v == txtvLogin) {
             finish();
             startActivity(new Intent(this, Login.class));
-            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         }
 
     }
